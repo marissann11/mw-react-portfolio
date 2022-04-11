@@ -4,10 +4,8 @@ import App from './App';
 import './styles/app.scss';
 
 ReactDOM.render(
-  <div className="overlay">
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </div>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
