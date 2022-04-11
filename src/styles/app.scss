@@ -1,0 +1,10 @@
+@import 'config';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  background-image: $background-img-dark;
+}
