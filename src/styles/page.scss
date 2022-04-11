@@ -6,25 +6,37 @@
 }
 .about {
   height: 80vh;
+  width: 90vw;
   display: flex;
   flex-direction: row;
+  position: absolute;
 }
-.about-img {
+.my-img {
+  height: 80vh;
+  position: absolute;
+  border-right: 3px solid #284b63;
+}
+.overlay {
+  margin-top: 200px;
+  height: 350px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.2;
+  position: relative;
+}
+.greeting {
+  height: 50%;
+  margin-top: 100px;
   width: 50%;
-  align-self: center;
-  border-right: $about-border-light-mode;
+  background-color: #d9d9d9;
+  border: 3px #284b63 solid;
+  border-radius: 1%;
+  position: absolute;
+  margin-left: 500px;
+  justify-content: center;
+  align-items: center;
 }
-.about-text {
-  width: 50%;
-  align-self: center;
-  h1 {
-    text-shadow: 4px 4px 4px #81929e;
-    font-size: 95px;
-  }
-  p {
-    margin-bottom: 30px;
-  }
-}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
