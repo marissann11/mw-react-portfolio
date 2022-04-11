@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Portfolio = () => {
   const currentProjects = [
@@ -33,9 +33,14 @@ const Portfolio = () => {
       site: 'https://marissann11.github.io/work-day-scheduler-week5/',
     },
   ];
-  const [currentProject, setCurrentProject] = useState();
 
-  return <div>Projects</div>;
+  return (
+    <div className="portfolio">
+      {currentProjects.map((project, i) => (
+        <img src={require(`../assets/small/${i}.png`)} alt={project.name} />
+      ))}
+    </div>
+  );
 };
 
 export default Portfolio;

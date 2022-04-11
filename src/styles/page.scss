@@ -1,3 +1,5 @@
+@import 'config';
+
 .page {
   height: 80vh;
   width: 100%;
@@ -10,9 +12,18 @@
 .about-img {
   width: 50%;
   align-self: center;
-  border-right: solid 3px black;
+  border-right: $about-border-light-mode;
 }
 .about-text {
   width: 50%;
   align-self: center;
+  h1 {
+    text-shadow: 4px 4px 4px white;
+    font-size: 75px;
+  }
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

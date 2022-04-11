@@ -1,9 +1,15 @@
 import React from 'react';
+import '../styles/footer.scss';
+import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <h1>Footer</h1>
+      <div className="icons">
+        <FaLinkedin className="single-icon" />
+        <FaGithub className="single-icon" />
+        <FaStackOverflow className="single-icon" />
+      </div>
     </footer>
   );
 };

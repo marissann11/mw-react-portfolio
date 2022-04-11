@@ -1,0 +1,13 @@
+@import 'config';
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  .icons {
+    font-size: 35px;
+    color: $icon-light-mode;
+  }
+  .single-icon:hover {
+    font-size: 50px;
+  }
+}
