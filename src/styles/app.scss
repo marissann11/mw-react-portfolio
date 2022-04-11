@@ -5,11 +5,36 @@
   padding: 0;
 }
 body {
-  background-image: $background-img-dark;
+  background-image: $background-img-light;
 }
 .main-content {
   height: 100vh;
   width: 93%;
+  text-align: center;
   margin: auto;
-  background-color: $background-dark;
+  background-color: $background-light;
+  color: $text-light-mode;
+}
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  h1 {
+    align-self: center;
+  }
+  h2 {
+    align-self: center;
+  }
+}
+.page {
+  height: 80vh;
+  width: 100%;
+}
+.footer {
+  height: 10vh;
+  width: 100%;
 }
