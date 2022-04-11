@@ -18,12 +18,23 @@
   width: 50%;
   align-self: center;
   h1 {
-    text-shadow: 4px 4px 4px white;
-    font-size: 75px;
+    text-shadow: 4px 4px 4px #81929e;
+    font-size: 95px;
   }
 }
 .portfolio {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+  .img-box {
+    margin: 50px;
+    justify-content: space-between;
+  }
+  img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    padding: 20px;
+  }
 }

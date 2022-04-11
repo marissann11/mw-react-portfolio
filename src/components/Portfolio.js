@@ -36,9 +36,11 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio">
-      {currentProjects.map((project, i) => (
-        <img src={require(`../assets/small/${i}.png`)} alt={project.name} />
-      ))}
+      <div className="img-box">
+        {currentProjects.map((project, i) => (
+          <img src={require(`../assets/small/${i}.png`)} alt={project.name} />
+        ))}
+      </div>
     </div>
   );
 };
