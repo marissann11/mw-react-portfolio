@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-image: $background-img-light;
@@ -14,25 +15,6 @@ body {
   margin: auto;
   background-color: $background-light;
   color: $text-light-mode;
-}
-.header {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-  h1 {
-    align-self: center;
-  }
-  h2 {
-    align-self: center;
-  }
-}
-.page {
-  height: 80vh;
-  width: 100%;
 }
 .footer {
   height: 10vh;

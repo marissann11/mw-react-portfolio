@@ -1,5 +1,9 @@
 import React from 'react';
 import About from './About';
+import PageContent from './PageContent';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import '../styles/page.scss';
 
 const Page = ({ currentPage }) => {
   const renderPage = () => {

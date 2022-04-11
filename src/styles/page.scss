@@ -1,0 +1,18 @@
+.page {
+  height: 80vh;
+  width: 100%;
+}
+.about {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+.about-img {
+  width: 50%;
+  align-self: center;
+  border-right: solid 3px black;
+}
+.about-text {
+  width: 50%;
+  align-self: center;
+}

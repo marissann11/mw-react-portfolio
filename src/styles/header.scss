@@ -1,0 +1,24 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: sticky;
+  ul {
+    width: 100%;
+    align-self: center;
+    list-style-type: none;
+  }
+  li {
+    width: 100%;
+    display: inline;
+  }
+  li span {
+    padding: 10px;
+    text-align: center;
+  }
+  li span:hover {
+    color: gray;
+  }
+}
