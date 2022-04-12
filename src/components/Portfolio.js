@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/portfolio.scss';
 
 const Portfolio = () => {
   const currentProjects = [
@@ -36,9 +37,17 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio">
-      <div className="img-box">
+      <div className="container">
         {currentProjects.map((project, i) => (
-          <img src={require(`../assets/small/${i}.png`)} alt={project.name} />
+          <div className="hexagon" key={project.name}>
+            <div className="shape">
+              {' '}
+              <img
+                src={require(`../assets/small/${i}.png`)}
+                alt={project.name}
+              />
+            </div>
+          </div>
         ))}
       </div>
     </div>

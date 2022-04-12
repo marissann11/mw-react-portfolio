@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaSun, FaCloudMoon } from 'react-icons/fa';
+import '../styles/about.scss';
 
 const About = () => {
   return (
