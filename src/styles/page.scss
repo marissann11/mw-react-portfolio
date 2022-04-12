@@ -18,6 +18,8 @@
     border-radius: 20%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
       url(../assets/images/me.png);
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%);
   }
   .circle {
     position: absolute;

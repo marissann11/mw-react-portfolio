@@ -24,6 +24,7 @@
   }
   li span:hover {
     font-size: 20px;
-    color: $icon-light-mode;
+    color: $icon-hover-light;
+    cursor: pointer;
   }
 }

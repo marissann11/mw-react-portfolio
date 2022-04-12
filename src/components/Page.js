@@ -3,6 +3,7 @@ import About from './About';
 import PageContent from './PageContent';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Skills from './Skills';
 import '../styles/page.scss';
 
 const Page = ({ currentPage }) => {
@@ -10,6 +11,8 @@ const Page = ({ currentPage }) => {
     switch (currentPage.name) {
       case 'About':
         return <About />;
+      case 'Skills':
+        return <Skills />;
       case 'Portfolio':
         return <Portfolio />;
       case 'Contact':

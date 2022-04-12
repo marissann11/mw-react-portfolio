@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about row">
       <div className="about-text">
-        <h1>Hello</h1>
+        <h1>Hello!</h1>
         <p>
           This will be where I write all the things. <br />
           This will be where is will be wI write all the things. <br />
