@@ -6,13 +6,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: $app-bg-light;
+  // background-color: $app-bg-light;
+  background-color: #ececec;
 }
 .main-content {
   height: 100vh;
   width: 90%;
   text-align: center;
   margin: auto;
-  background-color: $background-light;
-  color: $text-light-mode;
+  background-color: white;
+  color: black;
+  // background-color: $background-light;
+  // color: $text-light-mode;
 }

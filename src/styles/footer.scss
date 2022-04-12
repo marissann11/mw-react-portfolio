@@ -7,6 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   position: sticky;
+  background-color: #ececec;
 
   .icons {
     width: 100%;
@@ -17,7 +18,8 @@
   }
   .single-icon:hover {
     font-size: 45px;
-    color: $icon-hover-light;
+    // color: $icon-hover-light;
+    color: black;
     cursor: pointer;
   }
 }

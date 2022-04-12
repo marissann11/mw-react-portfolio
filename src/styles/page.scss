@@ -11,23 +11,17 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: center;
   .pic {
+    align-self: center;
     position: relative;
-    width: 550px;
-    height: 600px;
-    border-radius: 20%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
-      url(../assets/images/me.png);
-    -webkit-filter: grayscale(40%);
-    filter: grayscale(40%);
-  }
-  .circle {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 25%;
-    background-color: rgba(0, 0, 0, 0.08);
-    margin-left: 300px;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2) url(../assets/images/me.png) no-repeat center;
+    -webkit-filter: grayscale(45%);
+    filter: grayscale(45%);
+    margin-left: 20px;
   }
   .about-text {
     padding-left: 50px;
@@ -37,12 +31,6 @@
   .toggle {
     font-size: 40px;
     margin-top: 50px;
-  }
-  .overlay {
-    width: 85%;
-    height: 15px;
-    margin-top: 20px;
-    background-color: #284b63;
   }
 }
 

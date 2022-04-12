@@ -7,6 +7,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   position: sticky;
+  background-color: #ececec;
   ul {
     width: 100%;
     align-self: center;
@@ -24,7 +25,8 @@
   }
   li span:hover {
     font-size: 20px;
-    color: $icon-hover-light;
+    // color: $icon-hover-light;
+    color: black;
     cursor: pointer;
   }
 }
