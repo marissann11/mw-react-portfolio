@@ -3,38 +3,35 @@
 .page {
   height: 80vh;
   width: 100%;
+  line-height: 1.5;
 }
 .about {
   height: 80vh;
-  width: 90vw;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-}
-.my-img {
-  height: 80vh;
-  position: absolute;
-  border-right: 3px solid #284b63;
-}
-.overlay {
-  margin-top: 200px;
-  height: 350px;
   width: 100%;
-  background-color: black;
-  opacity: 0.2;
-  position: relative;
-}
-.greeting {
-  height: 50%;
-  margin-top: 100px;
-  width: 50%;
-  background-color: #d9d9d9;
-  border: 3px #284b63 solid;
-  border-radius: 1%;
-  position: absolute;
-  margin-left: 500px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  .pic {
+    position: relative;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
+      url(../assets/images/me.png);
+  }
+  .circle {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-left: 300px;
+  }
+  .about-text {
+    border-left: $about-border-light-mode;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
 }
 
 .portfolio {

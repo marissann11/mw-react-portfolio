@@ -3,13 +3,20 @@
 .footer {
   height: 10vh;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: sticky;
 
   .icons {
+    width: 100%;
+    align-self: center;
+    list-style-type: none;
     font-size: 35px;
     color: $icon-light-mode;
   }
   .single-icon:hover {
-    font-size: 50px;
+    font-size: 45px;
     color: $icon-hover-light;
   }
 }
