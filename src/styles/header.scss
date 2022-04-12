@@ -1,3 +1,5 @@
+@import 'config';
+
 .header {
   height: 10vh;
   width: 100%;
@@ -14,12 +16,14 @@
     width: 100%;
     display: inline;
     font-size: 20px;
+    color: #81929e;
   }
   li span {
     padding: 10px;
     text-align: center;
   }
   li span:hover {
-    color: gray;
+    font-size: 20px;
+    color: $icon-light-mode;
   }
 }

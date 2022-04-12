@@ -13,24 +13,34 @@
   align-content: center;
   .pic {
     position: relative;
-    width: 650px;
-    height: 650px;
-    border-radius: 50%;
+    width: 550px;
+    height: 600px;
+    border-radius: 30%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
       url(../assets/images/me.png);
   }
   .circle {
     position: absolute;
-    width: 550px;
-    height: 550px;
-    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
     background-color: rgba(0, 0, 0, 0.08);
     margin-left: 300px;
   }
   .about-text {
-    border-left: $about-border-light-mode;
     padding-left: 50px;
-    padding-top: 20px;
+    align-self: center;
+    height: 70%;
+  }
+  .toggle {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .overlay {
+    width: 85%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #284b63;
   }
 }
 

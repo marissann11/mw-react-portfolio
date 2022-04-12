@@ -1,10 +1,9 @@
 import React from 'react';
+import { FaSun, FaCloudMoon } from 'react-icons/fa';
 
 const About = () => {
   return (
     <div className="about row">
-      <div className="circle"></div>
-      <div className="pic"></div>
       <div className="about-text">
         <h1>Hello</h1>
         <p>
@@ -23,7 +22,16 @@ const About = () => {
           This will be where I write all the will be where I write all the
           things. <br />
         </p>
+        <div className="toggle">
+          <FaSun />
+          <FaCloudMoon />
+        </div>
       </div>
+      <div className="wrap">
+        <div className="circle"></div>
+        <div className="pic"></div>
+      </div>
+      <div className="overlay"></div>
     </div>
   );
 };
