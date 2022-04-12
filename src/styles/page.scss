@@ -15,7 +15,7 @@
     position: relative;
     width: 550px;
     height: 600px;
-    border-radius: 30%;
+    border-radius: 20%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
       url(../assets/images/me.png);
   }
@@ -23,7 +23,7 @@
     position: absolute;
     width: 500px;
     height: 500px;
-    border-radius: 30%;
+    border-radius: 25%;
     background-color: rgba(0, 0, 0, 0.08);
     margin-left: 300px;
   }
@@ -38,7 +38,7 @@
   }
   .overlay {
     width: 85%;
-    height: 20px;
+    height: 15px;
     margin-top: 20px;
     background-color: #284b63;
   }

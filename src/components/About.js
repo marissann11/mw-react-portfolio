@@ -10,7 +10,7 @@ const About = () => {
           This will be where I write all the things. <br />
           This will be where is will be wI write all the things. <br />
           This will be whhere is will be ere I write all tis will be where I
-          write all the things. <br />
+          write all the thingsdfxcgvhbjnk. <br />
           This will be whhere is will be ere I write all the things. <br />
           This will be where I write all the will be where I write all the
           things. <br /> <br />
