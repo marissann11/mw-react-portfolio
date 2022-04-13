@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/header.scss';
+import { FaSun, FaCloudMoon } from 'react-icons/fa';
 
 const Nav = (props) => {
   const { pages = [], setCurrentPage } = props;
@@ -12,6 +13,10 @@ const Nav = (props) => {
             <span onClick={() => setCurrentPage(page)}>{page.name}</span>
           </li>
         ))}
+        <li className="toggle">
+          <FaSun />
+          <FaCloudMoon />
+        </li>
       </ul>{' '}
     </header>
   );

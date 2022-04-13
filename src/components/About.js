@@ -1,34 +1,25 @@
 import React from 'react';
-import { FaSun, FaCloudMoon } from 'react-icons/fa';
 import '../styles/about.scss';
 
 const About = () => {
   return (
     <div className="about row">
-      <div className="wrap">
-        <div className="pic"></div>
+      <div className="pic"></div>
+      <div className="title">
+        <h1>Hi, I'm Marissa.</h1>
+        <p>Let's work together.</p>
       </div>
       <div className="about-text">
-        <h1>Hello!</h1>
         <p>
           This will be where I write all the things. <br />
           This will be where is will be wI write all the things. <br />
           This w This will be whhere is will be ere I write all the things.{' '}
           <br />
           This will be where I write all the will be where I write all the
-          things. <br /> <br />
-          This will be where I write all the things. <br />
-          This will be where is will be wI write all the things. <br />
-          This will be whhere is will be ere I write all tis will be where I
-          write all the things. <br />
-          This will be whhere is will be ere I write all the things. <br />
+          things Thibe is w the things. <br />
           This will be where I write all the will be where I write all the
           things. <br />
         </p>
-        <div className="toggle">
-          <FaSun />
-          <FaCloudMoon />
-        </div>
       </div>
     </div>
   );
