@@ -7,16 +7,31 @@
 }
 .container {
   align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .clip {
   height: 280px;
   position: relative;
   width: 300px;
-  margin: 20px;
+  margin: 10px;
   transition: 0.2s;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .clip:hover {
   opacity: 0.2;
   transform: scale(0.8);
+}
+.links {
+  a {
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #81929e;
+    font-size: 20px;
+  }
+  a:hover {
+    color: black;
+  }
 }
