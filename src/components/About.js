@@ -3,7 +3,7 @@ import '../styles/about.scss';
 
 const About = () => {
   return (
-    <div className="about row">
+    <div className="about">
       <div className="pic"></div>
       <div className="title">
         <h1>Hi, I'm Marissa.</h1>
@@ -21,6 +21,7 @@ const About = () => {
           things. <br />
         </p>
       </div>
+      <div className="box"></div>
     </div>
   );
 };
