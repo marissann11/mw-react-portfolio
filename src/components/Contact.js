@@ -36,36 +36,37 @@ const Contact = () => {
 
   return (
     <section className="contact-container">
-      <h1>Let's Chat!</h1>
       <form onSubmit={handleSubmit} className="form">
+        <h1>Let's Chat!</h1>
+
         <div className="contact-input">
-          <label htmlFor="name">Name:</label>
           <input
             type="text"
             defaultValue={name}
             onBlur={handleChange}
             name="name"
             className="input-field"
+            placeholder="Name"
           />{' '}
         </div>
         <div className="contact-input">
-          <label htmlFor="email">Email address:</label>
           <input
             type="email"
             defaultValue={email}
             onBlur={handleChange}
             name="email"
             className="input-field"
+            placeholder="Email"
           />{' '}
         </div>
         <div className="contact-input">
-          <label htmlFor="message">Message:</label>
           <textarea
             name="message"
             defaultValue={message}
             onBlur={handleChange}
             rows="10"
             className="input-field"
+            placeholder="Message"
           />{' '}
         </div>
         {errorMessage && (
