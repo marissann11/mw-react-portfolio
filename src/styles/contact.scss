@@ -1,0 +1,22 @@
+.contact-container {
+  height: 80vh;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    width: 100%;
+    align-self: center;
+    font-size: 40px;
+  }
+  .form {
+    width: 100%;
+  }
+  .contact-input {
+    padding: 5px;
+    margin: 5px;
+  }
+  .input-field {
+    width: 20%;
+  }
+}
