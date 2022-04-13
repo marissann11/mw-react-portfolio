@@ -39,15 +39,11 @@ const Portfolio = () => {
     <div className="portfolio">
       <div className="container">
         {currentProjects.map((project, i) => (
-          <div className="hexagon" key={project.name}>
-            <div className="shape">
-              {' '}
-              <img
-                src={require(`../assets/small/${i}.png`)}
-                alt={project.name}
-              />
-            </div>
-          </div>
+          <img
+            src={require(`../assets/small/${i}.png`)}
+            alt={project.name}
+            className="clip"
+          />
         ))}
       </div>
     </div>

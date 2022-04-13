@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/skills.scss';
 
 const Skills = () => {
-  return <div className="skills">These are my skills:</div>;
+  return <section className="skills"></section>;
 };
 
 export default Skills;

@@ -29,7 +29,8 @@ const App = () => {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />{' '}
-      <Page currentPage={currentPage} /> <Footer />{' '}
+      <Page currentPage={currentPage} />
+      <Footer />{' '}
     </main>
   );
 };
