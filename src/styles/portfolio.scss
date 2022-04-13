@@ -10,16 +10,36 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.img-box {
+  background-color: #ececec;
+  position: relative;
+
+  h1 {
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: #ecececbb;
+    border-radius: 5%;
+  }
+}
+.img-box:hover h1 {
+  display: none;
+}
 .clip {
   height: 280px;
   position: relative;
   width: 300px;
   margin: 10px;
+  opacity: 0.3;
+  object-fit: none;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
   transition: 0.2s;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .clip:hover {
-  opacity: 0.2;
+  opacity: 1;
   transform: scale(0.8);
 }
 .links {

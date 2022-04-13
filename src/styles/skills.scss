@@ -14,10 +14,14 @@
     flex-wrap: wrap;
     margin: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+    transition: 0.2s;
   }
   .top {
     width: 100%;
     font-size: 50px;
     align-self: center;
+  }
+  .container:hover {
+    transform: translateY(-7%);
   }
 }
