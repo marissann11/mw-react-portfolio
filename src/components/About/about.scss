@@ -7,12 +7,13 @@
   justify-content: center;
   .pic {
     position: relative;
-    width: 660px;
+    width: 700px;
     height: 80vh;
-    background: url(../assets/images/me.png) no-repeat center;
+    background: url(../../assets/images/me.png) no-repeat center;
     -webkit-filter: grayscale(45%);
-    filter: grayscale(55%);
-    opacity: 0.25;
+    filter: grayscale(45%);
+    opacity: 0.22;
+    right: 10px;
   }
   .about-text {
     align-self: center;
@@ -22,13 +23,11 @@
   }
   .title {
     position: absolute;
-    bottom: 100px;
-    left: 200px;
-    height: 220px;
+    height: 30vh;
     background-color: #ececec;
-    border-radius: 1%;
-    padding: 50px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+    padding: 30px;
+    bottom: 10px;
+    left: 50px;
   }
   .title h1 {
     font-size: 60px;

@@ -1,10 +1,10 @@
 import React from 'react';
-import About from './About';
+import About from '../About/About';
 import PageContent from './PageContent';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Skills from './Skills';
-import '../styles/page.scss';
+import Contact from '../Contact/Contact';
+import Portfolio from '../Portfolio/Portfolio';
+import Skills from '../Skills/Skills';
+import './page.scss';
 
 const Page = ({ currentPage }) => {
   const renderPage = () => {

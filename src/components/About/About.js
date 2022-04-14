@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/about.scss';
+import './about.scss';
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <div className="pic"></div>
       <div className="title">
         <h1>Hi, I'm Marissa.</h1>
-        <p>Let's work together.</p>
+        <p>Let's work together!</p>
       </div>
       <div className="about-text">
         <p>

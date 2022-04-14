@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/portfolio.scss';
+import './portfolio.scss';
 
 const Portfolio = () => {
   const currentProjects = [
@@ -42,7 +42,7 @@ const Portfolio = () => {
           <div className="project">
             <div className="img-box">
               <img
-                src={require(`../assets/small/${i}.png`)}
+                src={require(`../../assets/small/${i}.png`)}
                 alt={project.name}
                 className="clip"
               />

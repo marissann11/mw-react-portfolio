@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Lexend+Zetta:wght@200&family=Plus+Jakarta+Sans:wght@200&display=swap');
 @import 'config';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  // font-family: 'Fahkwang', sans-serif;
+  // font-family: 'Lexend Zetta', sans-serif;
 }
 body {
-  // background-color: $app-bg-light;
   background-color: #ececec;
 }
 .main-content {
@@ -17,6 +20,4 @@ body {
   background-color: white;
   color: black;
   position: relative;
-  // background-color: $background-light;
-  // color: $text-light-mode;
 }
