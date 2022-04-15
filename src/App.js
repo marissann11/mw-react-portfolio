@@ -10,10 +10,10 @@ const App = () => {
       name: 'About',
     },
     {
-      name: 'Skills',
+      name: 'Portfolio',
     },
     {
-      name: 'Portfolio',
+      name: 'Resume',
     },
     {
       name: 'Contact',

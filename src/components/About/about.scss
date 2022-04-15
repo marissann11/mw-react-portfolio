@@ -5,34 +5,46 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  .pic {
+
+  .img-container {
+    position: static;
+  }
+  img {
+    height: 400px;
+    width: auto;
     position: relative;
-    width: 700px;
-    height: 80vh;
-    background: url(../../assets/images/me.png) no-repeat center;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    align-self: center;
     -webkit-filter: grayscale(45%);
     filter: grayscale(45%);
-    opacity: 0.22;
-    right: 10px;
+    margin: 10px;
+    z-index: 1;
+  }
+  .box {
+    position: absolute;
+    height: 50vh;
+    width: 230px;
+    background-color: #ececec;
+    left: 200px;
+    top: 170px;
+    z-index: 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  }
+  .box2 {
+    position: absolute;
+    z-index: 0;
+    height: 40vh;
+    width: 250px;
+    background-color: #ececec;
+    bottom: 180px;
+    left: 500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
   }
   .about-text {
     align-self: center;
-    height: 20%;
-    right: 150px;
-    position: absolute;
-  }
-  .title {
-    position: absolute;
-    height: 30vh;
-    background-color: #ececec;
-    padding: 30px;
-    bottom: 10px;
-    left: 50px;
-  }
-  .title h1 {
-    font-size: 60px;
-  }
-  .title p {
-    font-size: 25px;
+    margin: 10px;
+    padding: 50px;
+    line-height: 2;
   }
 }

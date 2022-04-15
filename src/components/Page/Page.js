@@ -11,10 +11,10 @@ const Page = ({ currentPage }) => {
     switch (currentPage.name) {
       case 'About':
         return <About />;
-      case 'Skills':
-        return <Skills />;
       case 'Portfolio':
         return <Portfolio />;
+      case 'Resume':
+        return <Skills />;
       case 'Contact':
         return <Contact />;
       default:

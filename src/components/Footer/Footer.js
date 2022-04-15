@@ -7,7 +7,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="icons">
         <FaLinkedin className="single-icon" />
+
         <FaGithub className="single-icon" />
+
         <FaStackOverflow className="single-icon" />
       </div>
     </footer>

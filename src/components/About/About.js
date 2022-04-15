@@ -1,27 +1,23 @@
 import React from 'react';
 import './about.scss';
+import me from '../../assets/images/me.png';
 
 const About = () => {
   return (
     <div className="about">
-      <div className="pic"></div>
-      <div className="title">
-        <h1>Hi, I'm Marissa.</h1>
-        <p>Let's work together!</p>
+      <div className="img-container">
+        <img src={me} alt=""></img>
+        <div className="box"></div>
+        <div className="box2"></div>
       </div>
       <div className="about-text">
+        <h1>Hi, I'm Marissa</h1>
         <p>
-          This will be where I write all the things. <br />
-          This will be where is will be wI write all the things. <br />
-          This w This will be whhere is will be ere I write all the things.{' '}
-          <br />
-          This will be where I write all the will be where I write all the
-          things Thibe is w the things. <br />
-          This will be where I write all the will be where I write all the
-          things. <br />
+          This is where I write something <br />
+          And this is where I'll write another something.
         </p>
+        <h2>Let's work together!</h2>
       </div>
-      <div className="box"></div>
     </div>
   );
 };

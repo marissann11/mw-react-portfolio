@@ -1,5 +1,5 @@
 .skills {
-  height: 80vh;
+  min-height: 80vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -10,8 +10,8 @@
     height: 450px;
     width: 300px;
     background-color: #ececec;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     margin: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
     transition: 0.2s;
