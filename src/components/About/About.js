@@ -15,6 +15,7 @@ const About = () => {
           <br />
           And this is another something about me.
         </p>
+        <h2>Let's work together!</h2>
       </div>
     </div>
   );
