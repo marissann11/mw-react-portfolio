@@ -13,6 +13,7 @@
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
     "sass": "^1.50.0",
+    "use-dark-mode-hook": "^1.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

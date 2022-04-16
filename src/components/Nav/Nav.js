@@ -1,9 +1,11 @@
 import React from 'react';
 import './header.scss';
-import { FaSun, FaCloudMoon } from 'react-icons/fa';
+import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook';
 
 const Nav = (props) => {
   const { pages = [], setCurrentPage, currentPage } = props;
+
+  const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
     <header className="header">
@@ -13,9 +15,12 @@ const Nav = (props) => {
             <span onClick={() => setCurrentPage(page)}>{page.name}</span>
           </li>
         ))}
-        <li className="toggle">
-          <FaSun />
-          <FaCloudMoon />
+        <li>
+          <DarkModeToggler
+            isDarkMode={isDarkMode}
+            toggleDarkMode={toggleDarkMode}
+            buttonClassName="toggle"
+          />{' '}
         </li>
       </ul>{' '}
     </header>
