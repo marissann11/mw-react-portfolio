@@ -6,45 +6,18 @@
   align-content: center;
   justify-content: center;
 
-  .img-container {
-    position: static;
-  }
   img {
-    height: 400px;
+    max-height: 400px;
     width: auto;
-    position: relative;
-    background-color: white;
+    filter: grayscale(15%);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+  }
+  .text-container {
     align-self: center;
-    -webkit-filter: grayscale(45%);
-    filter: grayscale(45%);
-    margin: 10px;
-    z-index: 1;
-  }
-  .box {
-    position: absolute;
-    height: 50vh;
-    width: 230px;
-    background-color: #ececec;
-    left: 200px;
-    top: 170px;
-    z-index: 0;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  }
-  .box2 {
-    position: absolute;
-    z-index: 0;
-    height: 40vh;
-    width: 250px;
-    background-color: #ececec;
-    bottom: 180px;
-    left: 500px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-  }
-  .about-text {
-    align-self: center;
-    margin: 10px;
-    padding: 50px;
     line-height: 2;
+    padding: 10px;
+    padding-left: 20px;
+    border-bottom: 10px solid #ececec;
   }
 }

@@ -6,17 +6,15 @@ const About = () => {
   return (
     <div className="about">
       <div className="img-container">
-        <img src={me} alt=""></img>
-        <div className="box"></div>
-        <div className="box2"></div>
+        <img src={me} alt={me} />
       </div>
-      <div className="about-text">
+      <div className="text-container">
         <h1>Hi, I'm Marissa</h1>
         <p>
-          This is where I write something <br />
-          And this is where I'll write another something.
+          This is something about me, most likely.
+          <br />
+          And this is another something about me.
         </p>
-        <h2>Let's work together!</h2>
       </div>
     </div>
   );

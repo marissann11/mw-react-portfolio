@@ -5,8 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  // font-family: 'Fahkwang', sans-serif;
+  // font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Fahkwang', sans-serif;
   // font-family: 'Lexend Zetta', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body.light {
   background-color: $app-bg-light;
 
   .main-content {
-    background-color: $background-light;
+    background: $background-light;
     color: $text-light;
   }
 
@@ -90,7 +90,7 @@ body.dark {
 
   .main-content {
     background-color: $background-dark;
-    color: $text-light;
+    color: $text-dark;
   }
 
   .header {
