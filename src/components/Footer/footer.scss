@@ -5,19 +5,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   position: sticky;
-  background-color: #ececec;
 
   .icons {
     width: 100%;
     align-self: center;
     list-style-type: none;
     font-size: 35px;
-    color: #81929e;
   }
   .single-icon:hover {
     font-size: 45px;
-    // color: $icon-hover-light;
-    color: black;
     cursor: pointer;
   }
 }

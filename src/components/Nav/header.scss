@@ -5,7 +5,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   position: sticky;
-  background-color: #ececec;
   ul {
     width: 100%;
     align-self: center;
@@ -15,7 +14,6 @@
     width: 100%;
     display: inline;
     font-size: 20px;
-    color: #81929e;
   }
   li span {
     padding: 10px;
@@ -23,16 +21,11 @@
   }
   li span:hover {
     font-size: 20px;
-    // color: $icon-hover-light;
-    color: black;
     cursor: pointer;
   }
   .toggle {
     font-size: 20px;
     margin-left: 10px;
     border: none;
-  }
-  .active {
-    color: black;
   }
 }

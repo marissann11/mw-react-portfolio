@@ -9,15 +9,145 @@
   // font-family: 'Fahkwang', sans-serif;
   // font-family: 'Lexend Zetta', sans-serif;
 }
-body {
-  background-color: #ececec;
-}
+
 .main-content {
   height: 100vh;
   width: 90%;
   text-align: center;
   margin: auto;
-  background-color: white;
-  color: black;
   position: relative;
+}
+
+body.light {
+  background-color: $app-bg-light;
+
+  .main-content {
+    background-color: $background-light;
+    color: $text-light;
+  }
+
+  .header {
+    background-color: $header-light;
+
+    li {
+      color: $links-light;
+    }
+    li span:hover {
+      color: $hover-light;
+    }
+    .active {
+      color: $hover-light;
+    }
+  }
+
+  .footer {
+    background-color: $footer-light;
+
+    .icons {
+      color: $links-light;
+    }
+    .single-icon:hover {
+      color: $hover-light;
+    }
+  }
+
+  .contact-container {
+    .form {
+      background-color: $contact-form-light;
+      box-shadow: $box-shadow-light;
+    }
+  }
+
+  .portfolio {
+    .img-box {
+      background-color: $port-imgbox-light;
+
+      h1 {
+        background-color: $port-imgbox-light;
+        box-shadow: $box-shadow-light;
+      }
+    }
+    .clip {
+      box-shadow: $box-shadow-light;
+    }
+    .links {
+      a {
+        color: $links-light;
+      }
+    }
+  }
+
+  .skills {
+    .container {
+      background-color: $skills-container-light;
+      box-shadow: $box-shadow-light;
+    }
+  }
+}
+
+body.dark {
+  background-color: $app-bg-dark;
+
+  .main-content {
+    background-color: $background-dark;
+    color: $text-light;
+  }
+
+  .header {
+    background-color: $header-dark;
+
+    li {
+      color: $links-dark;
+    }
+    li span:hover {
+      color: $hover-dark;
+    }
+    .active {
+      color: $hover-dark;
+    }
+  }
+
+  .footer {
+    background-color: $footer-dark;
+
+    .icons {
+      color: $links-dark;
+    }
+    .single-icon:hover {
+      color: $hover-dark;
+    }
+  }
+
+  .contact-container {
+    .form {
+      background-color: $contact-form-dark;
+      box-shadow: $box-shadow-dark;
+    }
+  }
+
+  .portfolio {
+    .img-box {
+      background-color: $port-imgbox-dark;
+
+      h1 {
+        background-color: $port-imgbox-dark;
+        box-shadow: $box-shadow-dark;
+      }
+    }
+    .clip {
+      box-shadow: $box-shadow-dark;
+    }
+    .links {
+      a {
+        color: $links-dark;
+      }
+    }
+  }
+
+  .skills {
+    .container {
+      background-color: $skills-container-dark;
+      box-shadow: $box-shadow-dark;
+    }
+  }
 }
