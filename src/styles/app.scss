@@ -107,6 +107,7 @@ body.dark {
   .about {
     .img-container {
       background-color: $about-img-dark;
+      opacity: 0.7;
     }
     h2 {
       border-top: $about-border-dark;
@@ -124,6 +125,9 @@ body.dark {
     }
     .active {
       color: $hover-dark;
+    }
+    .toggle {
+      color: white;
     }
   }
 
