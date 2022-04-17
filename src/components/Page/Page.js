@@ -6,8 +6,6 @@ import Portfolio from '../Portfolio/Portfolio';
 import Skills from '../Skills/Skills';
 import './page.scss';
 
-// switch case for conditionally rendering components based on what option the user chooses from the nav bar
-
 const Page = ({ currentPage }) => {
   const renderPage = () => {
     switch (currentPage.name) {

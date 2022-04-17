@@ -16,12 +16,11 @@ const Nav = (props) => {
           </li>
         ))}
         <li>
-          {/* Leaving useDarkMode hook commented out until I'm happy with color scheme for dark mode preference */}
-          {/* <DarkModeToggler
+          <DarkModeToggler
             isDarkMode={isDarkMode}
             toggleDarkMode={toggleDarkMode}
             buttonClassName="toggle"
-          />{' '} */}
+          />{' '}
         </li>
       </ul>{' '}
     </header>
