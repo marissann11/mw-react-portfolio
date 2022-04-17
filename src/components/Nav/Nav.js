@@ -16,11 +16,11 @@ const Nav = (props) => {
           </li>
         ))}
         <li>
-          <DarkModeToggler
+          {/* <DarkModeToggler
             isDarkMode={isDarkMode}
             toggleDarkMode={toggleDarkMode}
             buttonClassName="toggle"
-          />{' '}
+          />{' '} */}
         </li>
       </ul>{' '}
     </header>
