@@ -6,11 +6,12 @@ const About = () => {
     <div className="about">
       <div className="img-container"></div>
       <div className="text-container">
-        <h1>Hi, I'm Marissa</h1>
+        <h1>Hi, I'm Marissa.</h1>
         <p>
-          This is something about me, most likely.
+          I am a full stack web developer who embraces a challenge and <br />
+          has a knack for problem solving, looking forward
           <br />
-          And this is another something about me.
+          to my next project.
         </p>
         <h2>Let's work together!</h2>
       </div>

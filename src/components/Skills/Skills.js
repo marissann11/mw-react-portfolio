@@ -28,7 +28,7 @@ const Skills = () => {
           Node.js <br />
           Express.js <br />
           MERN Stack <br />
-          MySql <br />
+          MySQL <br />
           User Auth <br />
           Session Storage
         </p>

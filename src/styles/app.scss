@@ -51,7 +51,7 @@ body.light {
   .footer {
     background-color: $footer-light;
 
-    .icons {
+    .icons a {
       color: $links-light;
     }
     .single-icon:hover {
@@ -130,7 +130,7 @@ body.dark {
   .footer {
     background-color: $footer-dark;
 
-    .icons {
+    .icons a {
       color: $links-dark;
     }
     .single-icon:hover {

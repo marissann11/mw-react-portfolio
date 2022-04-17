@@ -6,11 +6,21 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="icons">
-        <FaLinkedin className="single-icon" />
-
-        <FaGithub className="single-icon" />
-
-        <FaStackOverflow className="single-icon" />
+        <a
+          href="https://www.linkedin.com/in/marissa-wilhite-8700a4238/"
+          target="_blank"
+        >
+          <FaLinkedin className="single-icon" />
+        </a>
+        <a href="https://github.com/marissann11" target="_blank">
+          <FaGithub className="single-icon" />
+        </a>
+        <a
+          href="https://stackoverflow.com/users/17353462/marissa"
+          target="_blank"
+        >
+          <FaStackOverflow className="single-icon" />
+        </a>
       </div>
     </footer>
   );
