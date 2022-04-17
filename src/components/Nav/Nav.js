@@ -1,11 +1,12 @@
 import React from 'react';
 import './header.scss';
-import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook';
+// import useDarkMode, { DarkModeToggler } from 'use-dark-mode-hook';
 
 const Nav = (props) => {
   const { pages = [], setCurrentPage, currentPage } = props;
 
-  const [isDarkMode, toggleDarkMode] = useDarkMode();
+  // Leaving useDarkMode hook commented out until I'm happy with color scheme for dark mode preference
+  // const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
     <header className="header">
