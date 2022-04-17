@@ -5,9 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // font-family: 'Plus Jakarta Sans', sans-serif;
-  font-family: 'Fahkwang', sans-serif;
-  // font-family: 'Lexend Zetta', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .main-content {
@@ -25,6 +23,15 @@ body.light {
   .main-content {
     background: $background-light;
     color: $text-light;
+  }
+
+  .about {
+    .img-container {
+      background-color: $about-img-light;
+    }
+    h2 {
+      border-top: $about-border-light;
+    }
   }
 
   .header {
@@ -75,6 +82,9 @@ body.light {
       a {
         color: $links-light;
       }
+      a:hover {
+        color: $hover-light;
+      }
     }
   }
 
@@ -92,6 +102,15 @@ body.dark {
   .main-content {
     background-color: $background-dark;
     color: $text-dark;
+  }
+
+  .about {
+    .img-container {
+      background-color: $about-img-dark;
+    }
+    h2 {
+      border-top: $about-border-dark;
+    }
   }
 
   .header {
@@ -141,6 +160,9 @@ body.dark {
     .links {
       a {
         color: $links-dark;
+      }
+      a:hover {
+        color: $hover-dark;
       }
     }
   }

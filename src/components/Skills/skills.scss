@@ -7,10 +7,11 @@
   justify-content: center;
 
   .container {
-    height: 450px;
-    width: 300px;
+    height: 400px;
+    width: 250px;
     margin: 30px;
     transition: 0.2s;
+    padding: 20px;
   }
   .top {
     width: 100%;
@@ -18,6 +19,6 @@
     align-self: center;
   }
   .container:hover {
-    transform: translateY(-7%);
+    transform: translateY(-8%);
   }
 }

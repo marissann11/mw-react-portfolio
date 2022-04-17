@@ -18,6 +18,7 @@
 .img-box {
   position: relative;
   margin-bottom: 10px;
+  border-radius: 1%;
 
   h1 {
     align-self: center;
@@ -26,7 +27,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    padding: 70px;
+    padding: 50px;
+    border-radius: 1%;
   }
 }
 .img-box:hover h1 {
@@ -35,8 +37,8 @@
 .clip {
   height: 280px;
   position: relative;
-  width: 300px;
-  opacity: 0.05;
+  width: 320px;
+  opacity: 0.03;
   object-fit: none;
   transition: 0.3s;
 }

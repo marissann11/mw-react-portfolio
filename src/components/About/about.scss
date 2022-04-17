@@ -6,12 +6,14 @@
   align-content: center;
   justify-content: center;
 
-  img {
-    max-height: 400px;
-    width: auto;
-    filter: grayscale(15%);
+  .img-container {
+    background-image: url(../../assets/images/me.png);
+    height: 500px;
+    width: 400px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
-    margin-right: 20px;
+    border-radius: 3%;
+    filter: grayscale(20%);
+    // opacity: 0.75;
   }
   .text-container {
     align-self: center;
@@ -20,7 +22,6 @@
     padding-left: 20px;
   }
   h2 {
-    border-top: 10px solid #ececec;
     padding: 5px;
   }
 }

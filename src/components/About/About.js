@@ -1,13 +1,10 @@
 import React from 'react';
 import './about.scss';
-import me from '../../assets/images/me.png';
 
 const About = () => {
   return (
     <div className="about">
-      <div className="img-container">
-        <img src={me} alt={me} />
-      </div>
+      <div className="img-container"></div>
       <div className="text-container">
         <h1>Hi, I'm Marissa</h1>
         <p>

@@ -5,9 +5,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   position: fixed;
+  justify-content: center;
+  align-items: center;
 
   .icons {
-    width: 100%;
     align-self: center;
     list-style-type: none;
     font-size: 35px;
