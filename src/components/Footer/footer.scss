@@ -11,10 +11,13 @@
   .icons {
     align-self: center;
     list-style-type: none;
-    font-size: 35px;
+  }
+  .single-icon {
+    padding: 5px;
+    font-size: 45px;
   }
   .single-icon:hover {
-    font-size: 45px;
+    font-size: 50px;
     cursor: pointer;
   }
 }
