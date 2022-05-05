@@ -4,14 +4,14 @@ import './portfolio.scss';
 const Portfolio = () => {
   const currentProjects = [
     {
+      name: 'Sole Intentions v2',
+      github: 'https://github.com/marissann11/sole-REACTions',
+      site: 'https://sole-intentions.herokuapp.com/',
+    },
+    {
       name: 'Sole Intentions',
       github: 'https://github.com/marissann11/sole-intentions-TMT',
       site: 'https://soleintentions.herokuapp.com/',
-    },
-    {
-      name: 'Cosmo Quotes',
-      github: 'https://github.com/Rebekah818/andromeda',
-      site: 'https://rebekah818.github.io/andromeda/',
     },
     {
       name: 'Weather Dashboard',
